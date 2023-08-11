@@ -1,18 +1,21 @@
 body{
-    background-image: url("image.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    margin:0px;
 }
+#box1 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
 
-h1 {
-    background: linear-gradient(to right, skyblue, lightgreen);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    padding: 50px;
+    margin-right: auto;
+    /* stick to the left side with margin-right auto */
 }
-p {
-    background: linear-gradient(to left, skyblue, lightgreen);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+#box2 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: dodgerblue;
 }
